@@ -8,13 +8,12 @@ require([
 
   const template = {
     title: "Crime Data for St. Louis, MO",
-    content: "Crime in St. Louis.",
+    content: "Crime in St. Louis."
   };
 
   const csvLayer = new CSVLayer({
     url: url,
-    copyright: "",
-    popupTemplate: template
+    copyright: ""
   });
 
   csvLayer.renderer = {
